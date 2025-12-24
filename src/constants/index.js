@@ -216,23 +216,23 @@ export {
 };
 
 const WORK_LOCATION = {
-  id: 1,
+  id: "loc-work",
   type: "work",
   name: "Work",
   icon: "/icons/work.svg",
   kind: "folder",
   children: [
-    // ▶ Project 1
+    // ================= PROJECT 1 =================
     {
-      id: 5,
+      id: "proj-ecommerce",
       name: "Ecommerce Website Application",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      position: "top-10 left-5",
+      windowPosition: "top-[5vh] left-5",
       children: [
         {
-          id: 1,
+          id: "proj-ecommerce-txt",
           name: "Ecommerce Project.txt",
           icon: "/images/txt.png",
           kind: "file",
@@ -240,12 +240,11 @@ const WORK_LOCATION = {
           position: "top-5 left-10",
           description: [
             "KuttiStore is a cross-platform mobile e-commerce application built using Expo and React Native.",
-            "The app provides a smooth shopping experience where users can browse products, manage their cart, ",
-            "securely place orders, and make payments using Stripe."
+            "Users can browse products, manage carts, and make secure payments using Stripe.",
           ],
         },
         {
-          id: 2,
+          id: "proj-ecommerce-url",
           name: "ecommerce.com",
           icon: "/images/safari.png",
           kind: "file",
@@ -254,7 +253,7 @@ const WORK_LOCATION = {
           position: "top-10 right-20",
         },
         {
-          id: 4,
+          id: "proj-ecommerce-img",
           name: "nike.png",
           icon: "/images/image.png",
           kind: "file",
@@ -263,7 +262,7 @@ const WORK_LOCATION = {
           imageUrl: "/images/project-1.png",
         },
         {
-          id: 5,
+          id: "proj-ecommerce-fig",
           name: "Design.fig",
           icon: "/images/plain.png",
           kind: "file",
@@ -274,30 +273,29 @@ const WORK_LOCATION = {
       ],
     },
 
-    // project 4
-        {
-      id: 5,
+    // ================= PROJECT 2 =================
+    {
+      id: "proj-health",
       name: "DIGITAL HEALTH CARD",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "bottom-[20vh] left-5", // optional: Finder window position
+      position: "top-52 right-20",
+      windowPosition: "bottom-[20vh] left-5",
       children: [
         {
-          id: 1,
+          id: "proj-health-txt",
           name: "health-card Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-           " A smart Digital Health Card platform that securely stores patient medical data and enables real-time access through QR code scanning.",
-             "The system integrates AI-powered prescription analysis to detect medicines, dosages, and potential issues, along with an intelligent chat assistant for health-related queries.",
-              "It also supports real-time chat between patients, doctors, and admins for instant communication and consultation."
+            "A smart Digital Health Card platform with QR-based medical data access.",
+            "Includes AI-powered prescription analysis and real-time chat.",
           ],
         },
         {
-          id: 2,
+          id: "proj-health-url",
           name: "health-card.com",
           icon: "/images/safari.png",
           kind: "file",
@@ -306,7 +304,7 @@ const WORK_LOCATION = {
           position: "top-10 right-20",
         },
         {
-          id: 4,
+          id: "proj-health-img",
           name: "card.png",
           icon: "/images/image.png",
           kind: "file",
@@ -315,7 +313,7 @@ const WORK_LOCATION = {
           imageUrl: "/images/project-1.png",
         },
         {
-          id: 5,
+          id: "proj-health-fig",
           name: "Design.fig",
           icon: "/images/plain.png",
           kind: "file",
@@ -325,9 +323,10 @@ const WORK_LOCATION = {
         },
       ],
     },
-    // ▶ Project 2
+
+    // ================= PROJECT 3 =================
     {
-      id: 6,
+      id: "proj-chatify",
       name: "Chatify",
       icon: "/images/folder.png",
       kind: "folder",
@@ -335,20 +334,19 @@ const WORK_LOCATION = {
       windowPosition: "top-[20vh] left-7",
       children: [
         {
-          id: 1,
+          id: "proj-chatify-txt",
           name: "chatify Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "Chatify is a modern, full-stack real-time chat application built using React, Node.js, Express, and MongoDB,",
-            " designed for seamless and secure communication. The app supports instant messaging with real-time updates,",
-            " user authentication, and scalable background processing."
+            "Chatify is a full-stack real-time chat application.",
+            "Built with React, Node.js, Express, and MongoDB.",
           ],
         },
         {
-          id: 2,
+          id: "proj-chatify-url",
           name: "chatify.com",
           icon: "/images/safari.png",
           kind: "file",
@@ -357,8 +355,8 @@ const WORK_LOCATION = {
           position: "top-20 left-20",
         },
         {
-          id: 4,
-          name: "ai-resume-analyzer.png",
+          id: "proj-chatify-img",
+          name: "chatify.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -366,7 +364,7 @@ const WORK_LOCATION = {
           imageUrl: "/images/project-2.png",
         },
         {
-          id: 5,
+          id: "proj-chatify-fig",
           name: "Design.fig",
           icon: "/images/plain.png",
           kind: "file",
@@ -377,9 +375,9 @@ const WORK_LOCATION = {
       ],
     },
 
-    // ▶ Project 3
+    // ================= PROJECT 4 =================
     {
-      id: 7,
+      id: "proj-talentiq",
       name: "Talent IQ",
       icon: "/images/folder.png",
       kind: "folder",
@@ -387,21 +385,19 @@ const WORK_LOCATION = {
       windowPosition: "top-[33vh] left-7",
       children: [
         {
-          id: 1,
+          id: "proj-talentiq-txt",
           name: "TalentIQ.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "A modern talent assessment and recruitment platform.",
+            "Helps companies evaluate candidates efficiently.",
           ],
         },
         {
-          id: 2,
+          id: "proj-talentiq-url",
           name: "talentIQ.com",
           icon: "/images/safari.png",
           kind: "file",
@@ -410,7 +406,7 @@ const WORK_LOCATION = {
           position: "top-10 right-20",
         },
         {
-          id: 4,
+          id: "proj-talentiq-img",
           name: "talentiq.png",
           icon: "/images/image.png",
           kind: "file",
@@ -419,7 +415,7 @@ const WORK_LOCATION = {
           imageUrl: "/images/project-3.png",
         },
         {
-          id: 5,
+          id: "proj-talentiq-fig",
           name: "Design.fig",
           icon: "/images/plain.png",
           kind: "file",
@@ -431,6 +427,7 @@ const WORK_LOCATION = {
     },
   ],
 };
+
 
 const ABOUT_LOCATION = {
   id: 2,
