@@ -395,7 +395,7 @@ body {
   }
 }
 
-[data-letter] {
+/* [data-letter] {
   display: inline-block;
   will-change: font-variation-settings;
-}
+} */

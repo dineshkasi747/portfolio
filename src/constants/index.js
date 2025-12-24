@@ -274,6 +274,57 @@ const WORK_LOCATION = {
       ],
     },
 
+    // project 4
+        {
+      id: 5,
+      name: "DIGITAL HEALTH CARD",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-5", // icon position inside Finder
+      windowPosition: "bottom-[20vh] left-5", // optional: Finder window position
+      children: [
+        {
+          id: 1,
+          name: "health-card Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+           " A smart Digital Health Card platform that securely stores patient medical data and enables real-time access through QR code scanning.",
+             "The system integrates AI-powered prescription analysis to detect medicines, dosages, and potential issues, along with an intelligent chat assistant for health-related queries.",
+              "It also supports real-time chat between patients, doctors, and admins for instant communication and consultation."
+          ],
+        },
+        {
+          id: 2,
+          name: "health-card.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://digital-health-card-gamma.vercel.app",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "card.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-1.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-60 right-20",
+        },
+      ],
+    },
     // ▶ Project 2
     {
       id: 6,
